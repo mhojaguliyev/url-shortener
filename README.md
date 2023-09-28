@@ -6,7 +6,6 @@ This is a simple URL shortener application built using PHP and the Laravel frame
 
 - Shorten long URLs into concise, easy-to-share links.
 - Redirect users from shortened links to the original URL.
-- Track usage statistics for each shortened link.
 
 ## Prerequisites
 
