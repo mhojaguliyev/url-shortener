@@ -75,9 +75,9 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 
-- To shorten a URL, visit the homepage and enter the long URL you want to shorten.
+- To shorten a URL, make post request to url /shorten with providing body parameter link.
 - You will receive a shortened link that you can share.
-- Users who access the shortened link will be redirected to the original URL.
+- Users with the shortened link will be redirected to the original URL until link expires.
 
 ## Contributing
 
@@ -88,10 +88,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 3. Make your changes and commit them: `git commit -m 'Add new feature'`.
 4. Push to the branch: `git push origin feature/your-feature-name`.
 5. Submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
